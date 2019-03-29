@@ -2,15 +2,12 @@
 layout: default
 ---
 
-<div class="home">
- 
-  
+<div class="home bg-dark">
 	<div class="row pack">
-
 		{% for post in paginator.posts %}
-			<div class="col-md-4 card">
+			<div class="col-md-4 card bg-dark border-light">
 				<a href="{{ post.url | prepend: site.baseurl }}" class="index-anchor">
-					<div class="panel panel-default shadow-sm p-3 mb-5 rounded" style="width: 18rem;">
+					<div class="panel panel-default" style="width: 18rem;">
 						<div class="panel-body">
 							<h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-meta pull-right"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
 						</div>
@@ -26,7 +23,7 @@ layout: default
 	</div> 
 	
 <div class="row">
-	<div class="col-md-4">  </div>
+	<div class="col-md-4"></div>
 	<div class="col-md-4">
 		{% if paginator.total_pages > 1 %}
 		<ul class="pagination">
