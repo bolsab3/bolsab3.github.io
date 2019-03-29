@@ -34,7 +34,7 @@ paginate_path: /page:num/
 
 # Comments
 disqus: yes
-disqus-shortname: Bolsa B3
+disqus-shortname: BolsaB3
 
 #social
 github: https://github.com/bolsab3/bolsab3.github.io
