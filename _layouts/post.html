@@ -19,12 +19,6 @@ layout: default
 			</div>
 
 		</article>
-		<div class="content">
-			{% if site.disqus-shortname %}
-			{% include disqus.html %}
-			{% endif %}
-		</div>
-
 
 		<div class="row">
 			<ul class="pager">
@@ -37,6 +31,12 @@ layout: default
 						&raquo;</a></li>
 				{% endif %}
 			</ul>
+		</div>
+		
+		<div class="content">
+				{% if site.disqus-shortname %}
+				{% include disqus.html %}
+				{% endif %}
 		</div>
 	</div>
 
