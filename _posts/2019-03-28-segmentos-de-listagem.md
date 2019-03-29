@@ -2,7 +2,7 @@
 layout: post
 title: "Segmentos de listagem"
 categories: bolsa
-autor: João Paulo Pulga <pulgovisk@protonmail.com>
+author: João Paulo Pulga <pulgovisk@protonmail.com>
 ---
 
 # Segmentos de Listagem, o que são e quais são as suas diferenças?
