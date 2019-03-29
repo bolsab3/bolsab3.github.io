@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Segmentos de listagem"
+title: "Destribuição de ações do Bradesco"
 categories: bolsa
 author: João Paulo Pulga <pulgovisk@protonmail.com>
 ---
