@@ -12,7 +12,7 @@ layout: default
 					<p class="card-text">{{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}</p>
 				</div>
 				<div class="card-footer bg-dark text-white">
-					<small>{{ post.date | date: "%b %-d, %Y" }}</small>
+					<small>Postado por {{post.author}} em {{ post.date | date: "%b %-d, %Y" }}</small>
 				</div>
 			</a>
 		</div>
